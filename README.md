@@ -16,5 +16,6 @@ Kết quả sau khi chạy mô hình
 
 # Demo model
 
+![image](https://github.com/user-attachments/assets/dce6574f-b295-436e-b957-f31f89099857)
 
-![Uploading image.png…]()
+
