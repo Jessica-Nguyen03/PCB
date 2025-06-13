@@ -1,4 +1,15 @@
-- Tải ultralytics
+- Các lỗi được xác định
+    0. Xước trên bo
+  
+    1. Xước trên linh kiện
+       
+    2. Thiếu linh kiện
+       
+    3. Hỏng linh kiện
+       
+    4. Hư chân chip
+       
+- Tải ultralytics để cung cấp các công cụ và mô hình sử dụng trong bài:
   
   !pip install ultralytics
   
@@ -10,8 +21,11 @@ Kết quả sau khi chạy mô hình
 
 
 •	Sau khi huấn luyện mô hình YOLO, thu được được ghi nhận trên bảng kết quả sau khi huấn luyện các version. Cho thấy YOLOv8n có kết quả tốt nhất.
+
 •	Tham số mAP50 của mô hình YOLOv8n đạt 99.3% nhỉnh hơn so với YOLOv11n 99.1%, cho thấy version 8 nhìn chung phát hiện chính xác hơn ở ngưỡng IoU ≥ 50.
+
 •	Tham số mAP50-95 của mô hình YOLOv8n đạt 73.7% tiếp tục vượt trội so với YOLOv11n, thể hiện khả năng phát hiện ổn định qua dải IoU rộng (50%  95%). Đây là chỉ số quan trọng khi cần cân nhắc accuracy ở các trường hợp cần IoU cao.
+
 •	Hai tham số Recall và Precision ở hai phiên bản đều rất cao (>98%), nhưng ở phiên bản YOLOv8n lại nhỉnh hơn cho thấy có lợi thế nhẹ trong việc tìm đủ đối tượng và giảm bớt cảnh báo sai.
 
 # Demo model
