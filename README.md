@@ -1,4 +1,5 @@
 - Các lỗi được xác định
+  
     0. Xước trên bo
   
     1. Xước trên linh kiện
